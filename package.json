@@ -1,0 +1,85 @@
+{
+	"babel": {
+		"plugins": [
+			[
+				"transform-react-jsx",
+				{
+					"pragma": "preact.h"
+				}
+			]
+		],
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"browserslist": [
+		">0.25%",
+		"ie 11",
+		"not op_mini all"
+	],
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"preact": "^8.2.9",
+		"prop-types": "^15.6.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.1.2",
+		"@babel/preset-env": "^7.1.0",
+		"babel-loader": "^8.0.4",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"eslint": "^4.19.1",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-prettier": "^2.6.0",
+		"prettier": "^1.12.1",
+		"uglifyjs-webpack-plugin": "^1.2.5",
+		"webpack": "^4.21.0",
+		"webpack-cli": "^3.1.2",
+		"webpack-merge": "^4.1.2",
+		"webpack-node-externals": "^1.7.2"
+	},
+	"eslintConfig": {
+		"env": {
+			"browser": true,
+			"es6": true,
+			"node": true
+		},
+		"extends": [
+			"plugin:prettier/recommended"
+		],
+		"parserOptions": {
+			"ecmaVersion": 6,
+			"sourceType": "module"
+		},
+		"plugins": [
+			"prettier"
+		],
+		"rules": {
+			"indent": [
+				2,
+				"tab"
+			],
+			"prefer-const": 2,
+			"prettier/prettier": 2,
+			"quotes": [
+				2,
+				"single",
+				{
+					"avoidEscape": true
+				}
+			]
+		}
+	},
+	"name": "liferay-help-center-megamenu",
+	"prettier": {
+		"bracketSpacing": false,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"useTabs": true
+	},
+	"private": true,
+	"scripts": {
+		"build": "webpack --mode=production",
+		"format": "prettier --write 'src/js/**/*.js'"
+	},
+	"version": "1.0.0"
+}
