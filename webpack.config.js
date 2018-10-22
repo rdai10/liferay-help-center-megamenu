@@ -13,7 +13,7 @@ module.exports = {
 		]
 	},
 	output: {
-		filename: 'megaMenu.js',
+		filename: 'main.js',
 		libraryTarget: 'commonjs2'
 	},
 	target: 'node'

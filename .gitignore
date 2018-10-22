@@ -1,10 +1,2 @@
-# dependencies
-/node_modules
-
-# testing
-/coverage
-
-# production
-/dist
-
-npm-debug.log*
+node_modules
+dist
