@@ -69,6 +69,11 @@
 			]
 		}
 	},
+	"files": [
+		"dist",
+		"src"
+	],
+	"main": "dist/main.js",
 	"name": "liferay-help-center-megamenu",
 	"prettier": {
 		"bracketSpacing": false,
