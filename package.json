@@ -87,5 +87,5 @@
 		"format": "prettier --write 'src/js/**/*.js'",
 		"prepare": "webpack --mode=production"
 	},
-	"version": "1.0.0"
+	"version": "1.0.1"
 }
