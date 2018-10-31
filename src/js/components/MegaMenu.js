@@ -25,7 +25,7 @@ class Submenu extends preact.Component {
 
 	render({accountLinks, highlightedLinks, locale}, {selectLanguage}) {
 		return selectLanguage ? (
-			<div class="col-3 language-selection submenu">
+			<div class="col-md-3 language-selection submenu">
 				<svg class="icon" onClick={this.handleClick}>
 					<use xlinkHref="#arrow-left" />
 				</svg>
@@ -49,7 +49,7 @@ class Submenu extends preact.Component {
 				</div>
 			</div>
 		) : (
-			<div class="col-3 submenu">
+			<div class="col-md-3 submenu">
 				<CardMenu
 					className={highlightedLinks.className}
 					configs={highlightedLinks.configs}
@@ -93,7 +93,7 @@ const MegaMenu = (
 ) => (
 	<div class="container-fluid container-fluid-max-xl">
 		<div class="header-menu-content row">
-			<div class="col-9 menu-body">
+			<div class="col-md-9 menu-body">
 				<h6 class="secondary-text-color">
 					{name}
 				</h6>
