@@ -85,7 +85,8 @@
 	"scripts": {
 		"build": "webpack --mode=production",
 		"format": "prettier --write 'src/js/**/*.js'",
-		"prepare": "webpack --mode=production"
+		"prepare": "webpack --mode=production",
+		"prepublishOnly": "webpack --mode=production"
 	},
 	"version": "1.0.2"
 }
