@@ -36,13 +36,13 @@ class Submenu extends preact.Component {
 						href={locale.currentLocale.url}
 						rel="nofollow"
 					>
-						{locale.currentLocale.name.toUpperCase()}
+						{locale.currentLocale.name}
 					</a>
 
 					{locale.alternativeLocales.map(
 						alternativeLocale => (
 							<a href={alternativeLocale.url} rel="nofollow">
-								{alternativeLocale.name.toUpperCase()}
+								{alternativeLocale.name}
 							</a>
 						)
 					)}
@@ -64,7 +64,7 @@ class Submenu extends preact.Component {
 
 				<div class="language">
 					<Card
-						name={locale.currentLocale.name.toUpperCase()}
+						name={locale.currentLocale.name}
 						svgId="#language"
 						type="nav"
 						onClick={this.handleClick}
