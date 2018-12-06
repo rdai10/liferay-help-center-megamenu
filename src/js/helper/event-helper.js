@@ -1,6 +1,7 @@
 export function clickOutside(nodeList, clickedOutsideCB, clickedInsideCB) {
 	const handleClickOutside = event => {
-		nodeList.forEach(
+		Array.prototype.forEach.call(
+			nodeList,
 			node => {
 				if (!node.contains(event.target)) {
 					clickedOutsideCB(node);
