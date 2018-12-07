@@ -4,9 +4,9 @@ export function clickOutside(nodeList, clickedOutsideCB, clickedInsideCB) {
 			nodeList,
 			node => {
 				if (!node.contains(event.target)) {
-					clickedOutsideCB(node);
+					clickedOutsideCB(node, event);
 				} else {
-					clickedInsideCB(node);
+					clickedInsideCB(node, event);
 				}
 			}
 		);
