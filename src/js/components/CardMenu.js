@@ -8,8 +8,8 @@ const CardMenu = ({className, configs, type}) => (
 		{configs.map(
 			(config, index) => (
 				<Card
-					description={config.description}
 					key={index}
+					description={config.description}
 					name={config.name}
 					svgId={config.svgId}
 					type={type}
