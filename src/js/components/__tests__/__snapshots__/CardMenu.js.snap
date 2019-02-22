@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardMenu renders nav card menu correctly 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="nav-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            One
+          </h4>
+          <p
+            class="description"
+          >
+            Description for One
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="nav-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#ticket"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          
+          <p
+            class="description"
+          >
+            Description for Two
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="nav-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#book"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            Three
+          </h4>
+          
+        </div>
+      </a>
+    </div>
+    <div
+      class="nav-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            Four
+          </h4>
+          <p
+            class="description"
+          >
+            Description for Four
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="nav-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#bug"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            Five
+          </h4>
+          <p
+            class="description"
+          >
+            Description for Five
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardMenu renders product card menu correctly 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="product-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            One
+            <svg
+              class="lexicon-icon lexicon-icon-arrow-right"
+            >
+              <use
+                href="#arrow-right"
+              />
+            </svg>
+          </h4>
+          <p
+            class="description"
+          >
+            Description for One
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="product-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#ticket"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          
+          <p
+            class="description"
+          >
+            Description for Two
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="product-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#book"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            Three
+            <svg
+              class="lexicon-icon lexicon-icon-arrow-right"
+            >
+              <use
+                href="#arrow-right"
+              />
+            </svg>
+          </h4>
+          
+        </div>
+      </a>
+    </div>
+    <div
+      class="product-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+        href="/"
+      >
+        
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            Four
+            <svg
+              class="lexicon-icon lexicon-icon-arrow-right"
+            >
+              <use
+                href="#arrow-right"
+              />
+            </svg>
+          </h4>
+          <p
+            class="description"
+          >
+            Description for Four
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="product-card"
+    >
+      <a
+        class="autofit-row autofit-row-center"
+      >
+        <div
+          class="autofit-col"
+        >
+          <svg
+            class="icon"
+          >
+            <use
+              href="#bug"
+            />
+          </svg>
+        </div>
+        <div
+          class="autofit-col autofit-col-expand"
+        >
+          <h4
+            class="title"
+          >
+            Five
+            <svg
+              class="lexicon-icon lexicon-icon-arrow-right"
+            >
+              <use
+                href="#arrow-right"
+              />
+            </svg>
+          </h4>
+          <p
+            class="description"
+          >
+            Description for Five
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
