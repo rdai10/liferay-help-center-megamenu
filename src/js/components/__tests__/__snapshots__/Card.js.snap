@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders nav card correctly 1`] = `
+<div>
+  <div
+    class="nav-card"
+  >
+    <a
+      class="autofit-row autofit-row-center"
+      href="/"
+    >
+      <div
+        class="autofit-col"
+      >
+        <svg
+          class="icon"
+        >
+          <use
+            href="#ticket"
+          />
+        </svg>
+      </div>
+      <div
+        class="autofit-col autofit-col-expand"
+      >
+        <h4
+          class="title"
+        >
+          Name
+        </h4>
+        <p
+          class="description"
+        >
+          Description
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Card renders product card correctly 1`] = `
+<div>
+  <div
+    class="product-card"
+  >
+    <a
+      class="autofit-row autofit-row-center"
+      href="/"
+    >
+      <div
+        class="autofit-col"
+      >
+        <svg
+          class="icon"
+        >
+          <use
+            href="#ticket"
+          />
+        </svg>
+      </div>
+      <div
+        class="autofit-col autofit-col-expand"
+      >
+        <h4
+          class="title"
+        >
+          Name
+          <svg
+            class="lexicon-icon lexicon-icon-arrow-right"
+          >
+            <use
+              href="#arrow-right"
+            />
+          </svg>
+        </h4>
+        <p
+          class="description"
+        >
+          Description
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Card renders without description 1`] = `
+<div>
+  <div
+    class="nav-card"
+  >
+    <a
+      class="autofit-row autofit-row-center"
+      href="/"
+    >
+      <div
+        class="autofit-col"
+      >
+        <svg
+          class="icon"
+        >
+          <use
+            href="#ticket"
+          />
+        </svg>
+      </div>
+      <div
+        class="autofit-col autofit-col-expand"
+      >
+        <h4
+          class="title"
+        >
+          Name
+        </h4>
+        
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Card renders without name 1`] = `
+<div>
+  <div
+    class="nav-card"
+  >
+    <a
+      class="autofit-row autofit-row-center"
+      href="/"
+    >
+      <div
+        class="autofit-col"
+      >
+        <svg
+          class="icon"
+        >
+          <use
+            href="#ticket"
+          />
+        </svg>
+      </div>
+      <div
+        class="autofit-col autofit-col-expand"
+      >
+        
+        <p
+          class="description"
+        >
+          Description
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Card renders without svg 1`] = `
+<div>
+  <div
+    class="nav-card"
+  >
+    <a
+      class="autofit-row autofit-row-center"
+      href="/"
+    >
+      
+      <div
+        class="autofit-col autofit-col-expand"
+      >
+        <h4
+          class="title"
+        >
+          Name
+        </h4>
+        <p
+          class="description"
+        >
+          Description
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Card renders without url 1`] = `
+<div>
+  <div
+    class="nav-card"
+  >
+    <a
+      class="autofit-row autofit-row-center"
+    >
+      <div
+        class="autofit-col"
+      >
+        <svg
+          class="icon"
+        >
+          <use
+            href="#ticket"
+          />
+        </svg>
+      </div>
+      <div
+        class="autofit-col autofit-col-expand"
+      >
+        <h4
+          class="title"
+        >
+          Name
+        </h4>
+        <p
+          class="description"
+        >
+          Description
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;

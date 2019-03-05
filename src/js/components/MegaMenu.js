@@ -16,17 +16,15 @@ class Submenu extends preact.Component {
 	}
 
 	handleClick() {
-		this.setState(
-			{
-				selectLanguage: !this.state.selectLanguage
-			}
-		);
+		this.setState({
+			selectLanguage: !this.state.selectLanguage
+		});
 	}
 
 	render({accountLinks, highlightedLinks, locale}, {selectLanguage}) {
 		return selectLanguage ? (
 			<div class="col-md-3 language-selection submenu">
-				<svg class="icon" onClick={this.handleClick}>
+				<svg aria-labelledby="back-button" aria-describedby="back to language selection" class="icon" onClick={this.handleClick} role="img">
 					<use xlinkHref="#arrow-left" />
 				</svg>
 
@@ -39,13 +37,11 @@ class Submenu extends preact.Component {
 						{locale.currentLocale.name}
 					</a>
 
-					{locale.alternativeLocales.map(
-						alternativeLocale => (
-							<a href={alternativeLocale.url} rel="nofollow">
-								{alternativeLocale.name}
-							</a>
-						)
-					)}
+					{locale.alternativeLocales.map(alternativeLocale => (
+						<a href={alternativeLocale.url} rel="nofollow">
+							{alternativeLocale.name}
+						</a>
+					))}
 				</div>
 			</div>
 		) : (
@@ -82,21 +78,17 @@ Submenu.propTypes = {
 	locale: PropTypes.object
 };
 
-const MegaMenu = (
-	{
-		accountLinks,
-		cardMenuItems,
-		highlightedLinks,
-		locale,
-		name
-	}
-) => (
+const MegaMenu = ({
+	accountLinks,
+	cardMenuItems,
+	highlightedLinks,
+	locale,
+	name
+}) => (
 	<div class="container-fluid container-fluid-max-xl">
 		<div class="header-menu-content row">
 			<div class="col-md-9 menu-body">
-				<h6 class="secondary-text-color">
-					{name}
-				</h6>
+				<h6 class="secondary-text-color">{name}</h6>
 
 				<div class="card-menu-container">
 					<CardMenu
@@ -117,10 +109,47 @@ const MegaMenu = (
 );
 
 MegaMenu.propTypes = {
-	accountLinks: PropTypes.object,
-	cardMenuItems: PropTypes.object,
-	highlightedLinks: PropTypes.object,
-	locale: PropTypes.object,
+	accountLinks: PropTypes.shape({
+		className: PropTypes.string,
+		configs: PropTypes.arrayOf(
+			PropTypes.shape({
+				name: PropTypes.string,
+				url: PropTypes.string
+			})
+		)
+	}),
+	cardMenuItems: PropTypes.shape({
+		className: PropTypes.string,
+		configs: PropTypes.arrayOf(
+			PropTypes.shape({
+				name: PropTypes.string,
+				svgId: PropTypes.string,
+				url: PropTypes.string
+			})
+		)
+	}),
+	highlightedLinks: PropTypes.shape({
+		className: PropTypes.string,
+		configs: PropTypes.arrayOf(
+			PropTypes.shape({
+				name: PropTypes.string,
+				svgId: PropTypes.string,
+				url: PropTypes.string
+			})
+		)
+	}),
+	locale: PropTypes.shape({
+		alternativeLocales: PropTypes.arrayOf(
+			PropTypes.shape({
+				name: PropTypes.string,
+				url: PropTypes.string
+			})
+		),
+		currentLocale: PropTypes.shape({
+			name: PropTypes.string,
+			url: PropTypes.string
+		})
+	}),
 	name: PropTypes.string
 };
 

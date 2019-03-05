@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MegaMenu renders a list of language selectors on clicking the current language 1`] = `
+<div>
+  <div
+    class="container-fluid container-fluid-max-xl"
+  >
+    <div
+      class="header-menu-content row"
+    >
+      <div
+        class="col-md-9 menu-body"
+      >
+        <h6
+          class="secondary-text-color"
+        >
+          Test
+        </h6>
+        <div
+          class="card-menu-container"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="nav-card"
+            >
+              <a
+                class="autofit-row autofit-row-center"
+              >
+                
+                <div
+                  class="autofit-col autofit-col-expand"
+                >
+                  <h4
+                    class="title"
+                  >
+                    Item 1
+                  </h4>
+                  
+                </div>
+              </a>
+            </div>
+            <div
+              class="nav-card"
+            >
+              <a
+                class="autofit-row autofit-row-center"
+                href="/"
+              >
+                <div
+                  class="autofit-col"
+                >
+                  <svg
+                    class="icon"
+                  >
+                    <use
+                      href="#glasses"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="autofit-col autofit-col-expand"
+                >
+                  
+                </div>
+              </a>
+            </div>
+            <div
+              class="nav-card"
+            >
+              <a
+                class="autofit-row autofit-row-center"
+                href="/"
+              >
+                <div
+                  class="autofit-col"
+                >
+                  <svg
+                    class="icon"
+                  >
+                    <use
+                      href="#sushi"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="autofit-col autofit-col-expand"
+                >
+                  <h4
+                    class="title"
+                  >
+                    Item 3
+                  </h4>
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-3 language-selection submenu"
+      >
+        <svg
+          aria-describedby="back to language selection"
+          aria-labelledby="back-button"
+          class="icon"
+          role="img"
+        >
+          <use
+            href="#arrow-left"
+          />
+        </svg>
+        <div
+          class="available-languages"
+        >
+          <a
+            class="current"
+            href="/"
+            rel="nofollow"
+          >
+            en
+          </a>
+          <a
+            href="/"
+            rel="nofollow"
+          >
+            fr
+          </a>
+          <a
+            href="/"
+            rel="nofollow"
+          >
+            de
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MegaMenu renders menu correctly 1`] = `
+<div>
+  <div
+    class="container-fluid container-fluid-max-xl"
+  >
+    <div
+      class="header-menu-content row"
+    >
+      <div
+        class="col-md-9 menu-body"
+      >
+        <h6
+          class="secondary-text-color"
+        >
+          Test
+        </h6>
+        <div
+          class="card-menu-container"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="nav-card"
+            >
+              <a
+                class="autofit-row autofit-row-center"
+              >
+                
+                <div
+                  class="autofit-col autofit-col-expand"
+                >
+                  <h4
+                    class="title"
+                  >
+                    Item 1
+                  </h4>
+                  
+                </div>
+              </a>
+            </div>
+            <div
+              class="nav-card"
+            >
+              <a
+                class="autofit-row autofit-row-center"
+                href="/"
+              >
+                <div
+                  class="autofit-col"
+                >
+                  <svg
+                    class="icon"
+                  >
+                    <use
+                      href="#glasses"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="autofit-col autofit-col-expand"
+                >
+                  
+                </div>
+              </a>
+            </div>
+            <div
+              class="nav-card"
+            >
+              <a
+                class="autofit-row autofit-row-center"
+                href="/"
+              >
+                <div
+                  class="autofit-col"
+                >
+                  <svg
+                    class="icon"
+                  >
+                    <use
+                      href="#sushi"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="autofit-col autofit-col-expand"
+                >
+                  <h4
+                    class="title"
+                  >
+                    Item 3
+                  </h4>
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-3 submenu"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+            >
+              
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                <h4
+                  class="title"
+                >
+                  Item 1
+                </h4>
+                
+              </div>
+            </a>
+          </div>
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+              href="/"
+            >
+              <div
+                class="autofit-col"
+              >
+                <svg
+                  class="icon"
+                >
+                  <use
+                    href="#glasses"
+                  />
+                </svg>
+              </div>
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                
+              </div>
+            </a>
+          </div>
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+              href="/"
+            >
+              <div
+                class="autofit-col"
+              >
+                <svg
+                  class="icon"
+                >
+                  <use
+                    href="#sushi"
+                  />
+                </svg>
+              </div>
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                <h4
+                  class="title"
+                >
+                  Item 3
+                </h4>
+                
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+            >
+              
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                <h4
+                  class="title"
+                >
+                  Item 1
+                </h4>
+                
+              </div>
+            </a>
+          </div>
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+              href="/"
+            >
+              <div
+                class="autofit-col"
+              >
+                <svg
+                  class="icon"
+                >
+                  <use
+                    href="#glasses"
+                  />
+                </svg>
+              </div>
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                
+              </div>
+            </a>
+          </div>
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+              href="/"
+            >
+              <div
+                class="autofit-col"
+              >
+                <svg
+                  class="icon"
+                >
+                  <use
+                    href="#sushi"
+                  />
+                </svg>
+              </div>
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                <h4
+                  class="title"
+                >
+                  Item 3
+                </h4>
+                
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="language"
+        >
+          <div
+            class="nav-card"
+          >
+            <a
+              class="autofit-row autofit-row-center"
+              href="javascript:;"
+            >
+              <div
+                class="autofit-col"
+              >
+                <svg
+                  class="icon"
+                >
+                  <use
+                    href="#language"
+                  />
+                </svg>
+              </div>
+              <div
+                class="autofit-col autofit-col-expand"
+              >
+                <h4
+                  class="title"
+                >
+                  en
+                </h4>
+                
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
