@@ -3,8 +3,7 @@ import {
 	cleanup,
 	debounceRenderingOff,
 	fireEvent,
-	render,
-	queryByRole
+	render
 } from 'preact-testing-library';
 
 import MegaMenu from '../MegaMenu';
