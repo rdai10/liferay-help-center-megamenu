@@ -1,6 +1,8 @@
 import preact from 'preact';
 import PropTypes from 'prop-types';
 
+import {cardType, linkType} from '../types/mega-menu';
+
 import Card from './Card';
 import CardMenu from './CardMenu';
 
@@ -117,44 +119,19 @@ const MegaMenu = ({
 MegaMenu.propTypes = {
 	accountLinks: PropTypes.shape({
 		className: PropTypes.string,
-		configs: PropTypes.arrayOf(
-			PropTypes.shape({
-				name: PropTypes.string,
-				url: PropTypes.string
-			})
-		)
+		configs: PropTypes.arrayOf(linkType)
 	}),
 	cardMenuItems: PropTypes.shape({
 		className: PropTypes.string,
-		configs: PropTypes.arrayOf(
-			PropTypes.shape({
-				name: PropTypes.string,
-				svgId: PropTypes.string,
-				url: PropTypes.string
-			})
-		)
+		configs: cardType
 	}),
 	highlightedLinks: PropTypes.shape({
 		className: PropTypes.string,
-		configs: PropTypes.arrayOf(
-			PropTypes.shape({
-				name: PropTypes.string,
-				svgId: PropTypes.string,
-				url: PropTypes.string
-			})
-		)
+		configs: cardType
 	}),
 	locale: PropTypes.shape({
-		alternativeLocales: PropTypes.arrayOf(
-			PropTypes.shape({
-				name: PropTypes.string,
-				url: PropTypes.string
-			})
-		),
-		currentLocale: PropTypes.shape({
-			name: PropTypes.string,
-			url: PropTypes.string
-		})
+		alternativeLocales: PropTypes.arrayOf(linkType),
+		currentLocale: linkType
 	}),
 	name: PropTypes.string
 };
