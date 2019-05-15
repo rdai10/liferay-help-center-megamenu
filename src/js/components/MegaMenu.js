@@ -24,7 +24,13 @@ class Submenu extends preact.Component {
 	render({accountLinks, highlightedLinks, locale}, {selectLanguage}) {
 		return selectLanguage ? (
 			<div class="col-md-3 language-selection submenu">
-				<svg aria-labelledby="back-button" aria-describedby="back to language selection" class="icon" onClick={this.handleClick} role="img">
+				<svg
+					aria-labelledby="back-button"
+					aria-describedby="back to language selection"
+					class="icon"
+					onClick={this.handleClick}
+					role="img"
+				>
 					<use xlinkHref="#arrow-left" />
 				</svg>
 
