@@ -28,7 +28,7 @@
 		"babel-loader": "^8.0.4",
 		"babel-plugin-transform-react-jsx": "^6.24.1",
 		"eslint": "^4.19.1",
-		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-prettier": "^4.3.0",
 		"eslint-plugin-prettier": "^2.6.0",
 		"jest": "^24.1.0",
 		"preact-testing-library": "^0.3.0",
