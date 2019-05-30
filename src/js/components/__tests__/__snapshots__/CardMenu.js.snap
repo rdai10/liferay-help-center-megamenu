@@ -190,13 +190,6 @@ exports[`CardMenu renders product card menu correctly 1`] = `
             class="title"
           >
             One
-            <svg
-              class="lexicon-icon lexicon-icon-arrow-right"
-            >
-              <use
-                href="#arrow-right"
-              />
-            </svg>
           </h4>
           <p
             class="description"
@@ -261,13 +254,6 @@ exports[`CardMenu renders product card menu correctly 1`] = `
             class="title"
           >
             Three
-            <svg
-              class="lexicon-icon lexicon-icon-arrow-right"
-            >
-              <use
-                href="#arrow-right"
-              />
-            </svg>
           </h4>
           
         </div>
@@ -288,13 +274,6 @@ exports[`CardMenu renders product card menu correctly 1`] = `
             class="title"
           >
             Four
-            <svg
-              class="lexicon-icon lexicon-icon-arrow-right"
-            >
-              <use
-                href="#arrow-right"
-              />
-            </svg>
           </h4>
           <p
             class="description"
@@ -328,13 +307,6 @@ exports[`CardMenu renders product card menu correctly 1`] = `
             class="title"
           >
             Five
-            <svg
-              class="lexicon-icon lexicon-icon-arrow-right"
-            >
-              <use
-                href="#arrow-right"
-              />
-            </svg>
           </h4>
           <p
             class="description"

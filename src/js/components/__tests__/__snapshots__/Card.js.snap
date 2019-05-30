@@ -66,13 +66,6 @@ exports[`Card renders product card correctly 1`] = `
           class="title"
         >
           Name
-          <svg
-            class="lexicon-icon lexicon-icon-arrow-right"
-          >
-            <use
-              href="#arrow-right"
-            />
-          </svg>
         </h4>
         <p
           class="description"
