@@ -21,13 +21,6 @@ const Card = ({description, name, onClick, svgId, type, url}) => {
 					{name && (
 						<h4 class="title">
 							{name}
-							{type === 'product' ? (
-								<svg class="lexicon-icon lexicon-icon-arrow-right">
-									<use xlinkHref="#arrow-right" />
-								</svg>
-							) : (
-								''
-							)}
 						</h4>
 					)}
 
