@@ -23,7 +23,7 @@ class Submenu extends preact.Component {
 		});
 	}
 
-	render({accountLinks, highlightedLinks, locale}, {selectLanguage}) {
+	render({highlightedLinks, locale}, {selectLanguage}) {
 		return selectLanguage ? (
 			<div class="col-md-3 language-selection submenu">
 				<svg
@@ -60,12 +60,6 @@ class Submenu extends preact.Component {
 					type="nav"
 				/>
 
-				<CardMenu
-					className={accountLinks.className}
-					configs={accountLinks.configs}
-					type="nav"
-				/>
-
 				<div class="language">
 					<Card
 						name={locale.currentLocale.name}
@@ -81,13 +75,11 @@ class Submenu extends preact.Component {
 }
 
 Submenu.propTypes = {
-	accountLinks: PropTypes.object,
 	highlightedLinks: PropTypes.object,
 	locale: PropTypes.object
 };
 
 const MegaMenu = ({
-	accountLinks,
 	cardMenuItems,
 	highlightedLinks,
 	locale,
@@ -108,7 +100,6 @@ const MegaMenu = ({
 			</div>
 
 			<Submenu
-				accountLinks={accountLinks}
 				highlightedLinks={highlightedLinks}
 				locale={locale}
 			/>
@@ -117,10 +108,6 @@ const MegaMenu = ({
 );
 
 MegaMenu.propTypes = {
-	accountLinks: PropTypes.shape({
-		className: PropTypes.string,
-		configs: PropTypes.arrayOf(linkType)
-	}),
 	cardMenuItems: PropTypes.shape({
 		className: PropTypes.string,
 		configs: cardType
