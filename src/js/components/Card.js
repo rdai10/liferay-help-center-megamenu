@@ -1,9 +1,9 @@
 import preact from 'preact';
 import PropTypes from 'prop-types';
 
-const Card = ({description, name, onClick, svgId, type, url}) => {
+const Card = ({description, id, name, onClick, svgId, type, url}) => {
 	return (
-		<div class={`${type}-card`}>
+		<div class={`${type}-card`} id={id}>
 			<a
 				class="autofit-row autofit-row-center"
 				href={url}
@@ -33,6 +33,7 @@ const Card = ({description, name, onClick, svgId, type, url}) => {
 
 Card.propTypes = {
 	description: PropTypes.string,
+	id: PropTypes.string,
 	name: PropTypes.node,
 	onClick: PropTypes.func,
 	svgId: PropTypes.string,

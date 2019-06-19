@@ -25,7 +25,7 @@ class Submenu extends preact.Component {
 
 	render({highlightedLinks, locale}, {selectLanguage}) {
 		return selectLanguage ? (
-			<div class="col-md-3 language-selection submenu">
+			<div class="col-md-3 language-selection submenu" id="languageToggle">
 				<svg
 					aria-labelledby="back-button"
 					aria-describedby="back to language selection"
@@ -62,6 +62,7 @@ class Submenu extends preact.Component {
 
 				<div class="language">
 					<Card
+						id="languageToggle"
 						name={locale.currentLocale.name}
 						svgId="#language"
 						type="nav"
