@@ -101,6 +101,7 @@ exports[`MegaMenu renders a list of language selectors on clicking the current l
       </div>
       <div
         class="col-md-3 language-selection submenu"
+        id="languageToggle"
       >
         <svg
           aria-describedby="back to language selection"
@@ -326,6 +327,7 @@ exports[`MegaMenu renders menu correctly 1`] = `
         >
           <div
             class="nav-card"
+            id="languageToggle"
           >
             <a
               class="autofit-row autofit-row-center"
